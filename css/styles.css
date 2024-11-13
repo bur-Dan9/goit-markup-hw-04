@@ -117,8 +117,9 @@ header {
     position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
 .navigator {
-    transition; color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigator-studio::after {
     width: 100%;
@@ -134,7 +135,7 @@ header {
 }
 
 .navigator-studio:hover {
-    content:attr(width: 100%)
+    content: attr(width: 100%);
     border-bottom: 4px 48px solid #404bbf;
     border-radius: 2px;
 }
